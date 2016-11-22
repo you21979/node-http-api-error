@@ -1,6 +1,5 @@
 var HttpApiError = require('..')
 
-// 使用
 var network = new HttpApiError("Timeout", 'GENERIC', 0);
 console.log(network); // true
 
