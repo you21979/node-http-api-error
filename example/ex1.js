@@ -1,10 +1,7 @@
 var HttpApiError = require('..')
 
-var network = new HttpApiError("Timeout", 'GENERIC', 0);
-console.log(network); // true
+console.log(new HttpApiError("Timeout", 'GENERIC', 0))
 
-var http = new HttpApiError("not found", 'HTTP', 404);
-console.log(http); // true
+console.log(new HttpApiError("not found", 'HTTP', 404))
 
-var api = new HttpApiError("APIKEY", 'API', 1);
-console.log(api); // true
+console.log(new HttpApiError("APIKEY", 'API', 1))
