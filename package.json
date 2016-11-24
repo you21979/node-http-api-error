@@ -1,7 +1,7 @@
 {
   "author": "Yuki Akiyama",
   "name": "@you21979/http-api-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "@you21979/base-error" : "0.0.x"
