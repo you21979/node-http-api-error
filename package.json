@@ -7,7 +7,7 @@
     "@you21979/base-error" : "0.0.x"
   },
   "readmeFilename": "README.md",
-  "description": "",
+  "description": "http api error object",
   "main": "index.js",
   "devDependencies": {
   },
@@ -19,8 +19,7 @@
     "url": "git://github.com/you21979/node-http-api-error.git"
   },
   "keywords": [
-    "object",
-    "util"
+    "error"
   ],
   "bugs": {
     "url": "https://github.com/you21979/node-http-api-error/issues"
